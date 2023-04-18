@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  .barra {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    color: red;
+    cursor: pointer;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .barra-inferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #17333A;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .botones-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .lista-opciones {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 0;
+    margin-top: 0;
+    list-style: none;
+    z-index: 1;
+  }
+  
+  .boton-izquierda {
+    position: relative;
+  }
+  
+  .boton-izquierda:hover .lista-opciones {
+    display: block;
+  }
+  
+  .boton-izquierda:focus .lista-opciones {
+    display: block;
+  }
+  
+  
+
+  
+  .boton-centro {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .boton-centro:hover {
+    background-color: #388e3c;
+  }
+  
+  .boton-derecha {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .boton-derecha:hover {
+    background-color: #1976d2;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table td {
+    width: 25%;
+    height: 150px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+  }
+
+  .barra-busos {
+    background-color: #333;
+  }
+  
+  .barra-busos p {
+    color: #fff;
+  }
+  
+  
+  
+  

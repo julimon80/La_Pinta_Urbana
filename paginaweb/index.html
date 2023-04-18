@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>LA PINTA URBANA</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="barra">
+        <h1 onclick="mostrarAlerta()">Haz clic aquí</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="boton-login">
+            <a href="https://www.google.com/search?q=ropa+con+estilo+urbano&tbm=isch&ved=2ahUKEwj0ssePv7T-AhXOqIQIHeeEBH8Q2-cCegQIABAA&oq=ropa+con+estilo+urbano&gs_lcp=CgNpbWcQAzIECCMQJzIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgARQzAdYqxBgrxJoAHAAeACAAZEEiAGRBJIBAzUtMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=iRs_ZLTKKs7RkvQP54mS-Ac&bih=592&biw=1349&hl=es"
+                target="_blank">Iniciar sesión</a>
+        </button>
+
+
+    </header>
+
+    <p>Este sitio web esta diseñado con la intención de que tu mismo armes tu outfit, uno que sea urbano y bien estiludo
+        como decimos!</p>
+
+    <div class="barra-inferior">
+        <p>Armar Pinta</p>
+    </div>
+
+
+
+    <div class="botones-container">
+        <button class="boton-izquierda" onclick="mostrarOpciones()">
+            <p>Tipo De Camiseta</p>
+        </button>
+        <ul class="lista-opciones">
+            <li>Algodón</li>
+            <li>Poliéster</li>
+            <li>Microfibra</li>
+        </ul>
+        <button class="boton-centro">Tipo De Buso</button>
+        <button class="boton-derecha">Tipo de Sudadera</button>
+    </div>
+
+    <div class="seccion-ropa">
+        <div class="barra-inferior">
+            <p>CAMISETAS</p>
+        </div>
+
+        <section>
+            <table>
+                <tr>
+                    <td><img src="./imagenes/camiseta2.jpeg"></td>
+                    <td><img src="./imagenes/camiseta3.jpeg"></td>
+                    <td><img src="./imagenes/camiseta4.jpeg"></td>
+                    <td><img src="./imagenes/camiseta5.jpeg"></td>
+                    <td><img src="./imagenes/camiseta6.jpeg"></td>
+                </tr>
+            </table>
+        </section>
+
+        <div class="barra-inferior barra-busos">
+            <p>BUSOS</p>
+        </div>
+
+        </section>
+        <table>
+            <tr>
+                <td><img src="./imagenes/buso1.jpeg"></td>
+                <td><img src="./imagenes/buso2.jpeg"></td>
+                <td><img src="./imagenes/buso3.jpeg"></td>
+                <td><img src="./imagenes/buso4.jpeg"></td>
+                <td><img src="./imagenes/buso5.jpeg"></td>
+            </tr>
+        </table>
+        </section>
+        <br>
+        <br>
+
+        <footer>
+            <p>Contactame:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/carlosalexis.romerovalor?mibextid=ZbWKwL"
+                        target="_blank">Facebook</a></li>
+                <br>
+                <li><a href="https://wa.me/3016818367" target="_blank">Whatsapp</a></li>
+            </ul>
+        </footer>
+
+
+
+        <script>
+            function mostrarAlerta() {
+                alert("Armemos una pinta bien mela!");
+            }
+
+            function mostrarOpciones() {
+                document.querySelector('.lista-opciones').classList.toggle('visible');
+            }
+        </script>
+
+</body>
+
+</html>
