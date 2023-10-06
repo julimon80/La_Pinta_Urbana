@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>LA PINTA URBANA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/paginaweb/css/style.css">
+</head>
+
+<!--header-->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <div>
+        <a class="navbar-brand" href="#">
+            <h1 onclick="mostrarAlerta()">clic aquí</h1>
+        </a>
+    </div>
+    <!--boton de clic aqui-->
+    <div id="click">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> 
+    </div>
+    <img id="tatiana" src="/paginaweb/imagenes/short+camisamangalarga.png" alt="" srcset="">
+    <!--lista de items en INICIO-->
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/index.html">Inicio <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/acerca_de.html">Acerca de</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contactanos.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/apartados.html">Aparta Prendas</a>
+            </li>
+        </ul>
+        <!--lema en INICIO-->
+        <div id="lema" >   
+        <span class="navbar-text" style="color: blueviolet;">
+            <hr>
+            Si nos retrasamos es porque hacemos mas de lo que se debe hacer. <br>
+            <h5> Esta tienda te da asesoria personalizada! </h5>
+            <hr>
+        </span>
+    </div>
+    </div>
+</nav>
+<br>
+<br>
+<!--fin del header-->
+
+<body>
+
+
+    <button class="boton-login" style="display: flex; justify-content: flex-end;">
+        <a href="/inicio_sesion.html"
+            target="_blank">Iniciar sesión</a>
+    </button>
+
+
+    </header>
+
+    <p>Este sitio web esta diseñado con la intención de que tu mismo armes tu outfit, uno que sea urbano y bien estiludo
+        como decimos!</p>
+
+    <div class="barra-inferior">
+        <p>Armar Pinta</p>
+    </div>
+
+
+
+    <div class="botones-container">
+        <button class="boton-izquierda" onclick="mostrarOpciones()">
+            <p>Tipo De Camiseta</p>
+        </button>
+        <ul class="lista-opciones">
+            <li>Algodón</li>
+            <li>Poliéster</li>
+            <li>Microfibra</li>
+        </ul>
+        <button class="boton-centro">Tipo De Buso</button>
+        <button class="boton-derecha">Tipo de Sudadera</button>
+    </div>
+
+    <div class="seccion-ropa">
+        <div class="barra-inferior">
+            <p>CAMISETAS</p>
+        </div>
+
+        <section>
+            <table>
+                <tr>
+                    <td><img src="./imagenes/camiseta2.jpeg"></td>
+                    <td><img src="./imagenes/camiseta3.jpeg"></td>
+                    <td><img src="./imagenes/camiseta4.jpeg"></td>
+                    <td><img src="./imagenes/camiseta5.jpeg"></td>
+                    <td><img src="./imagenes/camiseta6.jpeg"></td>
+                </tr>
+            </table>
+        </section>
+
+        <div class="barra-inferior barra-busos">
+            <p>BUSOS</p>
+        </div>
+
+        </section>
+        <table>
+            <tr>
+                <td><img src="./imagenes/buso1.jpeg"></td>
+                <td><img src="./imagenes/buso2.jpeg"></td>
+                <td><img src="./imagenes/buso3.jpeg"></td>
+                <td><img src="./imagenes/buso4.jpeg"></td>
+                <td><img src="./imagenes/buso5.jpeg"></td>
+            </tr>
+        </table>
+        </section>
+        <br>
+        <br>
+
+        <footer>
+            <p>Contactame:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/carlosalexis.romerovalor?mibextid=ZbWKwL"
+                        target="_blank">Facebook</a></li>
+                <br>
+                <li><a href="https://wa.me/3016818367" target="_blank">Whatsapp</a></li>
+            </ul>
+        </footer>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+        <script src="/funciones.js"></script>
+</body>
+
+</html>

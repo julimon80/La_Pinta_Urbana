@@ -1,8 +1,9 @@
 body {
     background-color: black;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  
+  /*header general*/
   .barra {
     background-color: black;
     color: white;
@@ -11,12 +12,46 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+  #click
+  {
+    padding-right: 4%;
+    display: flex;
+    border-radius: 6%;
+    color: #17333A;
+    background-color: #1976d2;
+    
+
+  }
+  #tatiana
+  {
+    padding-left: 1%;
+    width: 100px;
+    height: 100px;
+    opacity: 90%;
   
+  }
+  .navbar
+  {
+    padding-left: 2%;
+    margin-top: auto;
+
+  }
+
   h1 {
     color: red;
     cursor: pointer;
   }
-  
+  #navbarText
+  {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 6%;
+  }  
+  #lema
+  {
+    padding-left: 4%;
+  }
+
   p {
     font-family: 'Roboto', sans-serif;
   }
@@ -125,6 +160,15 @@ body {
   
   .barra-busos p {
     color: #fff;
+  }
+  /*inicio sesion*/
+  .credenciales
+  {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    width: 70%;
+    padding-left: 4%;
   }
   
   
